@@ -2,4 +2,5 @@ virtualenv/
 venv/
 .venv/
 .vscode/
+.hintrc
 db.sqlite3

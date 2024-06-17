@@ -18,6 +18,7 @@
             <p>Available: {{product.availability|yesno:"Yes,No"}}</p>
         </li>
         {% endfor %}
-    </ul>
+    </ul>        
+    <a href="{% url 'product_detail' %}" class="back-link">Go back</a>
 </body>
 </html>
