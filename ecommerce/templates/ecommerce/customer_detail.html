@@ -15,7 +15,7 @@
             <p><strong>Email: </strong> {{customer.email}}</p>
             <p><strong>Joined on: </strong> {{customer.created_at}}</p>
         </div>
-        <a href="{% url 'customer_list' %}" class="back-link">Go back</a>
+        {% comment %} <a href="{% url 'customer_list' %}" class="back-link">Go back</a> {% endcomment %}
     </div>
 </body>
 </html>
